@@ -1,0 +1,42 @@
+<?php
+ //Most commonly used is $_SERVER
+//Local machine
+echo "GATEWAY_INTERFACE: ". $_SERVER['GATEWAY_INTERFACE']."<hr>";
+echo "SERVER_SOFTWARE: ". $_SERVER['SERVER_SOFTWARE']."<hr>"; //127.0.0.1
+echo "SERVER_ADDR: ". $_SERVER['SERVER_ADDR']."<hr>";
+echo "SERVER_PROTOCOL: ". $_SERVER['SERVER_PROTOCOL']."<hr>";
+echo "REQUEST_METHOD: ". $_SERVER['REQUEST_METHOD']."<hr>";
+echo "REQUEST_TIME: ". $_SERVER['REQUEST_TIME']."<hr>";
+echo "REQUEST_TIME_FLOAT: ". $_SERVER['REQUEST_TIME_FLOAT']."<hr>";
+echo "QUERY_STRING: ". $_SERVER['QUERY_STRING']."<hr>";
+echo "DOCUMENT_ROOT: ". $_SERVER['DOCUMENT_ROOT']."<hr>";
+
+echo "HTTP_ACCEPT: ". $_SERVER['HTTP_ACCEPT']."<hr>"; //127.0.0.1
+echo "HTTP_ACCEPT_CHARSET: ". $_SERVER['HTTP_ACCEPT_CHARSET']."<hr>";
+echo "HTTP_ACCEPT_ENCODING: ". $_SERVER['HTTP_ACCEPT_ENCODING']."<hr>";
+echo "HTTP_ACCEPT_LANGUAGE: ". $_SERVER['HTTP_ACCEPT_LANGUAGE']."<hr>";
+echo "HTTP_CONNECTION: ". $_SERVER['HTTP_CONNECTION']."<hr>";
+echo "HTTP_HOST: ". $_SERVER['HTTP_HOST']."<hr>";
+echo "HTTP_REFERER: ". $_SERVER['HTTP_REFERER']."<hr>";
+echo "HTTP_USER_AGENT: ". $_SERVER['HTTP_USER_AGENT']."<hr>";
+echo "HTTP_HOST: ". $_SERVER['HTTP_HOST']."<hr>";
+echo "HTTPS: ". $_SERVER['HTTPS']."<hr>";
+
+echo "REMOTE_ADDR: ". $_SERVER['REMOTE_ADDR']."<hr>";
+echo "REMOTE_HOST: ". $_SERVER['REMOTE_HOST']."<hr>";
+echo "REMOTE_PORT: ". $_SERVER['REMOTE_PORT']."<hr>";
+echo "REMOTE_USER: ". $_SERVER['REMOTE_USER']."<hr>";
+echo "REDIRECT_REMOTE_USER: ". $_SERVER['REDIRECT_REMOTE_USER']."<hr>";
+echo "SCRIPT_FILENAME: ". $_SERVER['SCRIPT_FILENAME']."<hr>";
+echo "SERVER_ADMIN: ". $_SERVER['SERVER_ADMIN']."<hr>";
+echo "SERVER_PORT: ". $_SERVER['SERVER_PORT']."<hr>";
+echo "SERVER_SIGNATURE: ". $_SERVER['SERVER_SIGNATURE']."<hr>";
+echo "PATH_TRANSLATED: ". $_SERVER['PATH_TRANSLATED']."<hr>";
+echo "SCRIPT_NAME: ". $_SERVER['SCRIPT_NAME']."<hr>";
+echo "REQUEST_URI: ". $_SERVER['REQUEST_URI']."<hr>";
+echo "PHP_AUTH_DIGEST: ". $_SERVER['PHP_AUTH_DIGEST']."<hr>";
+echo "PHP_AUTH_USER: ". $_SERVER['PHP_AUTH_USER']."<hr>";
+echo "PHP_AUTH_PW: ". $_SERVER['PHP_AUTH_PW']."<hr>";
+echo "AUTH_TYPE: ". $_SERVER['AUTH_TYPE']."<hr>";
+echo "PATH_INFO: ". $_SERVER['PATH_INFO']."<hr>";
+echo "ORIG_PATH_INFO: ". $_SERVER['ORIG_PATH_INFO']."<hr>";
