@@ -1,6 +1,6 @@
 <?php
 //Ternary operation
-$a = 7;
+$a = 8;
 $b = ($a == 8) ?  "Yes its 8".PHP_EOL :  "NOT 8".PHP_EOL;
 echo $b;
 
@@ -13,3 +13,7 @@ if($a == 8 ){
 //if - elseif -  else
 $result = $a == 5 ? "Yes an 5\n": ( $a  == 8 ? "It's a 8 \n" : "No idea what is it.");
 echo $result;
+echo PHP_EOL;
+//null coalescing operator
+$resultZero = $z ?? "No variable\n";
+echo $resultZero;
