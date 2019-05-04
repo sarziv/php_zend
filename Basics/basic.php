@@ -8,8 +8,15 @@ function fibonacci(array $num)
 
        $fib=($x+$y);
        array_push($num,$fib);
-       print_r($num);
-       fibonacci($num);
+
+
+       while (sizeof($num) < 10){
+           fibonacci($num);
+       }
+
+    print_r($num);
+       exit;
+
 
 }
 fibonacci(array(0,1));
